@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Martel+Sans:400,600|Poppins:600" rel="stylesheet">
+	
+	<!-- Awesomplete -->
+	<link href="css/awesomplete.css" rel="stylesheet">
+	
+	<!-- Custom -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	
+	<svg class="hero-bg" width="100%" height="1000px">
+		<defs>
+			<filter x="-7.4%" y="-12.7%" width="114.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-2">
+				<feGaussianBlur stdDeviation="200" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+				<feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+				<feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+				<feColorMatrix values="0 0 0 0 0.12   0 0 0 0 0.26   0 0 0 0 0.39 0 0 0 0.06 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+			</filter>
+			<ellipse id="path-1" cx="50%" cy="-50%" rx="100%" ry="100%"></ellipse>
+		</defs>
+		<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g>
+				<g id="hero-mask">
+					<use fill="#F1F6FA" fill-rule="evenodd" xlink:href="#path-1"></use>
+					<use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+				</g>
+			</g>
+		</g>
+	</svg>
+	<div class="shapes">
+		<img src="img/shapes/shapes-top.svg">
+		<img src="img/shapes/shapes-left1.svg">
+		<img src="img/shapes/shapes-right1.svg">
+		<img src="img/shapes/shapes-left2.svg">
+		<img src="img/shapes/pattern-right.svg">
+		<img src="img/shapes/shapes-left3.svg">
+		<img src="img/shapes/shapes-bottom.svg">
+	</div>
+	
+	<div class="section-hero">
+		<div class="container">
+			<div class="row logo-row">
+				<div class="col">
+					<img class="logo" src="img/Logo.svg">
+					<h1></h1>
+				</div>
+			</div>
+			<div class="row activity-row">
+				<div class="ml-auto mr-auto col-lg-8 col-md-12">
+					<h1>What do you feel like doing?</h1>
+					<div class="btn-check-group">
+						<div class="btn-check">
+							<input type="checkbox" id="activity-shop">
+							<label class="btn btn-activity" for="activity-shop">shop</label>
+						</div>
+						<div class="btn-check">
+							<input type="checkbox" id="activity-hike">
+							<label class="btn btn-activity" for="activity-hike">hike</label>
+						</div>
+						<div class="btn-check">
+							<input type="checkbox" id="activity-drink">
+							<label class="btn btn-activity" for="activity-drink">drink</label>
+						</div>
+						<div class="btn-check">
+							<input type="checkbox" id="activity-eat">
+							<label class="btn btn-activity" for="activity-eat">eat</label>
+						</div>
+						<div class="btn-check">
+							<input type="checkbox" id="activity-movie">
+							<label class="btn btn-activity" for="activity-movie">movie</label>
+						</div>
+						<div class="btn-check">
+							<input type="checkbox" id="activity-photography">
+							<label class="btn btn-activity" for="activity-photography">photography</label>
+						</div>
+					</div>
+					<div class="form-group underline-input">
+						<input class="awesomplete activityOther" list="activityOther" placeholder="Other">
+						<img src="img/search-icon.svg">
+						<datalist id="activityOther">
+							<option value=""></option>
+							<option value="Aircraft Spotting">Aircraft Spotting</option>
+							<option value="Airsofting">Airsofting</option>
+							<option value="Acting">Acting</option>
+							<option value="Amateur Astronomy">Amateur Astronomy</option>
+							<option value="Beachcombing">Beachcombing</option>
+							<option value="Beadwork">Beadwork</option>
+							<option value="Beatboxing">Beatboxing</option>
+							<option value="Bell Ringing">Bell Ringing</option>
+							<option value="Belly Dancing">Belly Dancing</option>
+							<option value="Bicycling">Bicycling</option>
+							<option value="Bicycle Polo">Bicycle Polo</option>
+							<option value="Bird watching">Bird watching</option>
+							<option value="BMX">BMX</option>
+							<option value="Cloud Watching">Cloud Watching</option>
+							<option value="Collecting Antiques">Collecting Antiques</option>
+							<option value="Collecting Artwork">Collecting Artwork</option>
+							<option value="Dancing">Dancing</option>
+							<option value="Darts">Darts</option>
+							<option value="Dodgeball">Dodgeball</option>
+							<option value="Fencing">Fencing</option>
+							<option value="Geocaching">Geocaching</option>
+							<option value="Ghost Hunting">Ghost Hunting</option>
+							<option value="Glowsticking">Glowsticking</option>
+							<option value="Going to movies">Going to movies</option>
+							<option value="Hula Hooping">Hula Hooping</option>
+							<option value="Hunting">Hunting</option>
+							<option value="Iceskating">Iceskating</option>
+							<option value="Illusion">Illusion</option>
+							<option value="Impersonations">Impersonations</option>
+							<option value="Jewelry Making">Jewelry Making</option>
+							<option value="Leathercrafting">Leathercrafting</option>
+							<option value="Legos">Legos</option>
+							<option value="Letterboxing">Letterboxing</option>
+							<option value="Mountain Biking">Mountain Biking</option>
+							<option value="Mountain Climbing">Mountain Climbing</option>
+							<option value="Musical Instruments">Musical Instruments</option>
+							<option value="Puppetry">Puppetry</option>
+							<option value="Racing Pigeons">Racing Pigeons</option>
+							<option value="Rafting">Rafting</option>
+							<option value="Railfans">Railfans</option>
+							<option value="Rapping">Rapping</option>
+							<option value="R/C Helicopters">R/C Helicopters</option>
+							<option value="R/C Planes">R/C Planes</option>
+							<option value="Reading">Reading</option>
+							<option value="Relaxing">Relaxing</option>
+							<option value="Rescuing Animals">Rescuing Animals</option>
+							<option value="Robotics">Robotics</option>
+							<option value="Rock Balancing">Rock Balancing</option>
+							<option value="Rock Collecting">Rock Collecting</option>
+							<option value="Running">Running</option>
+							<option value="Sand Castles">Sand Castles</option>
+							<option value="Scrapbooking">Scrapbooking</option>
+							<option value="Scuba Diving">Scuba Diving</option>
+							<option value="Storm Chasing">Storm Chasing</option>
+							<option value="Storytelling">Storytelling</option>
+							<option value="Surfing">Surfing</option>
+							<option value="Survival">Survival</option>
+							<option value="Urban Exploration">Urban Exploration</option>
+							<option value="Video Games">Video Games</option>
+							<option value="Writing Songs">Writing Songs</option>
+							<option value="Yoga">Yoga</option>
+							<option value="Zumba">Zumba</option>
+						</datalist>
+					</div>
+					<div class="other-bubbles"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="ml-auto mr-auto col-lg-8 col-md-12">
+					<h1>Where are you?</h1>
+					<input class="location-input" type="search" id="address-input" placeholder="San Francisco, CA" />
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section-listing">
+		<div class="container">
+			<div class="row">
+				<div class="ml-auto mr-auto col-lg-8 col-md-12">
+					<div class="connection-list">
+						<div class="list-item">
+							<h2 class="location">San Francisco, CA</h2>
+							<button class="btn btn-default">connect</button>
+							<p class="connected-quantity">connected with 12 times</p>
+							<p class="activities">photography, drink, eat</p>
+						</div>
+						<div class="list-item">
+							<h2 class="location">Ghirardelli Square, Nor...</h2>
+							<button class="btn btn-default">connect</button>
+							<p class="connected-quantity">connected with 12 times</p>
+							<p class="activities">photography, drink, eat</p>
+						</div>
+						<div class="list-item">
+							<h2 class="location">Fisherman's Wharf, San...</h2>
+							<button class="btn btn-default">connect</button>
+							<p class="connected-quantity">connected with 12 times</p>
+							<p class="activities">photography, drink, eat</p>
+						</div>
+						<div class="list-item">
+							<h2 class="location">Painted Ladies, Steiner...</h2>
+							<button class="btn btn-default">connect</button>
+							<p class="connected-quantity">connected with 12 times</p>
+							<p class="activities">photography, drink, eat</p>
+						</div>
+						<div class="list-item">
+							<h2 class="location">The Embarcadero, San ...</h2>
+							<button class="btn btn-default">connect</button>
+							<p class="connected-quantity">connected with 12 times</p>
+							<p class="activities">photography, drink, eat</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="ml-auto mr-auto col-lg-8 col-md-12">
+					<div class="phone-number-section">
+						<h3>Not seeing a good connection to hang with? That’s ok!<br>Just leave your number for other’s to find you.</h3>
+						<div class="form-group phone-number">
+							<div class="underline-input">
+								<input class="activityOther" placeholder="(123) 123-1234">
+								<img src="img/phone-icon.svg">
+							</div>
+							<button class="btn btn-default btn-lg">find me a connection</button>
+							<p>Don’t worry, your phone number will be kept private</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section-howitworks">
+		<div class="container">
+			<div class="row">
+				<h1 style="text-align:center; margin-bottom:40px;">How it works</h1>
+			</div>
+			<div class="row">
+				<div class="ml-auto mr-auto col-lg-4 col-md-12">
+					<img src="img/photo.png">
+					<img class="photo-shapes" src="img/shapes/photo-shapes-1.svg">
+					<img class="photo-shapes" src="img/shapes/photo-shapes-2.svg">
+				</div>
+				<div class="mr-auto mr-auto col-lg-4 col-md-12">
+					<p style="text-align:justify; padding-top:30px;">You’re bored. You feel like doing a specific activity but really need someone to do it with.. only problem is that you don’t have anybody to around to join you. borednomore connects ananmously to someone in your area that wants to join in, in the same activity. borednomore disguises your phone number in the same way craigslist hides your email. So, at any time you can stop contact with your connection.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	
+	<!-- Algolia Places -->
+	<script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15"></script>
+	
+	<script>//initialize
+	  var placesAutocomplete = places({
+		container: document.querySelector('#address-input')
+	  });
+	</script>
+	
+	<!-- Awesomplete -->
+	<script src="js/awesomplete.min.js"></script>
+	<script>
+		new Awesomplete('input.activityOther', {
+			autoFirst:true
+		});
+	</script>
+	
+	<!-- Custom js -->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
