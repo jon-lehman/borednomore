@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="781px" viewBox="0 0 1440 781" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1159.16514,832.251294 C1189.97441,832.251294 1220.54163,831.643108 1250.83384,830.446076 L1509.41046,247.217557 L193.904998,-338.483209 L-99.4375723,321.254496 C92.1486236,619.837691 583.388277,832.251294 1159.16514,832.251294 Z" id="path-1"></path>
+        <filter x="-12.4%" y="-17.1%" width="124.9%" height="134.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="200" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.128710108   0 0 0 0 0.269723896   0 0 0 0 0.393893495  0 0 0 0.0678781703 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy">
+            <g id="Oval-2" transform="translate(704.986443, 246.884043) rotate(-24.000000) translate(-704.986443, -246.884043) ">
+                <use fill="#F1F6FA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
