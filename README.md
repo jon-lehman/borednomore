@@ -1,8 +1,8 @@
-#boredNoMore
+# boredNoMore
 
 =================
 
-##Credits:
+## Credits:
 
 • Icons from materialdesignicons.com
   - materialdesignicons license here: https://github.com/Templarian/MaterialDesign/blob/master/license.txt
